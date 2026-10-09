@@ -16,6 +16,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "https://customer-support-process-analyzer.vercel.app",
+        "https://customer-support-process-analyzer-px6qp7pd6.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
